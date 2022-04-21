@@ -9,7 +9,7 @@ function WorkExperience() {
                 <div className="work-body">
                     <p className="work-name">Full Stack Developer</p>
                     <p className="work-place">Remote (2020)</p>
-                    <p className="work-degree">E-commerce for selling art & crafts</p>
+                    <p className="work-degree">Moodyhuez - E-commerce for selling art & crafts</p>
                 </div>
                 <div className="work-divider"></div>
                 <div className="work-body">

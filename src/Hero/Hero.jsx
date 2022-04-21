@@ -19,6 +19,7 @@ function Hero() {
               <a href="https://in.linkedin.com/in/aryamitrachaudhuri" target="_blank"><span><i className="fab fa-linkedin"></i></span></a>
               <a href="https://github.com/aryamitra06" target="_blank"><span><i className="fab fa-github"></i></span></a>
               <a href="https://twitter.com/beingaryamitra" target="_blank"><span><i className="fab fa-twitter"></i></span></a>
+              <a href="https://facebook.com/caryamitra" target="_blank"><span><i className="fab fa-facebook"></i></span></a>
               </div>
             </div>
           </div>

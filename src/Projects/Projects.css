@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+.project-parent {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.projects-title {
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    font-size: 1.8rem;
+    padding: 40px;
+    background-color: crimson;
+    display: inline-block;
+    width: 5%;
+}
+
+.project-body {
+    background-color: #676ddbea;
+    height: 230px;
+    width: 550px;
+    border-radius: 14px;
+    transition: ease-in-out 0.5s;
+    position: relative;
+    top: 0;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.project-body-child-1 {
+    height: 35%;
+    width: 100%;
+    background-color: #676ddbea;
+    border-radius: 14px 14px 0px 0px;
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project-body-child-1 p {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 33px;
+    margin: 0%;
+}
+
+.project-body-child-1 i {
+    color: white;
+    font-size: 50px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.project-body-child-1 i:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.project-body-child-2 {
+    width: 100%;
+    height: 10%;
+    background: rgb(9, 9, 121);
+    background: linear-gradient(90deg, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    padding: 10px 12px;
+    display: flex;
+    align-items: center;
+}
+
+.project-body-child-2 p {
+    margin: 0%;
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.project-body-child-3 {
+    width: 100%;
+    height: 55%;
+    background-color: #676CDB;
+    padding: 10px 12px;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.project-body-child-3 p {
+    margin: 0%;
+    margin-top: 5px;
+    color: rgb(241, 234, 234);
+    font-family: 'Rubik', sans-serif;
+}
+
+.project-body:hover {
+    top: -8px;
+    -webkit-box-shadow: 3px 10px 54px -8px rgba(0, 0, 0, 0.46);
+    -moz-box-shadow: 3px 10px 54px -8px rgba(0, 0, 0, 0.46);
+    box-shadow: 3px 10px 54px -8px rgba(0, 0, 0, 0.46);
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-title{
+        padding: 10px;
+        background-color: crimson;
+        display: inline-block;
+        width: 15%;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}

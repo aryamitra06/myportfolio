@@ -1,0 +1,48 @@
+.education-parent{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.education-body{
+    height: 120px;
+    width: 500px;
+    background-color: rgb(103,108,219);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.institute-name{
+    color: white;
+    font-size: 1.8rem;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0%;
+    padding: 0%;
+}
+.institute-place{
+    padding: 0%;
+    margin: 0%;
+    color: rgba(255, 255, 255, 0.753);
+    font-family: 'Rubik', sans-serif;
+}
+.institute-degree{
+    padding: 0%;
+    margin-top: 7px;
+    color: rgb(255, 255, 255);
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    margin-bottom: 0%;
+}
+.education-divider{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 2px;
+    height: 40px;
+    background-color: rgba(103, 109, 219, 0.685);
+}
+@media only screen and (max-width: 600px) {
+    .education-body{
+        width: 95%;
+    }
+}

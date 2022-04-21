@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+.navbar{
+    background-color:rgb(34,42,53) !important;
+    position: sticky;
+    top: 0; 
+    z-index: 1;
+}
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    color: white !important;
+    font-size: 1.8rem;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+.navbar-brand img{
+    -webkit-animation: action2 1s infinite  alternate;
+    animation: action2 1s infinite  alternate;
+}
+@-webkit-keyframes action2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+@keyframes action2 {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-3px); }
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+.navbar-toggler, .navbar-toggler-icon{
+    color: rgb(34, 42, 53) !important;
+    background-color: rgb(34,42,53);
+}
+.navbar-toggler{
+    border-color: transparent !important;
+}
+.nav-item{
+    font-family: 'Rubik', sans-serif;
+}

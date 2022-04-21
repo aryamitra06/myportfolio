@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Contact/Contact.css'
-import brandimage from '../Navbar/image.jpg'
+import brandimage from '../Assets/image.jpg'
 function Contact() {
     return (
         <>

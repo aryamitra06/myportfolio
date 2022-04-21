@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Skills/Skills.css'
-import brandimage from '../Navbar/image.png'
+import brandimage from '../Assets/image.png'
 function Skills() {
   return (
     <>

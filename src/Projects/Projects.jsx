@@ -17,8 +17,6 @@ function Projects() {
         }
         fetchData();
     }, []);
-
-    console.log(projects);
     return (
         <>
             <div className='projects-title'>Projects.</div>
